@@ -32,10 +32,10 @@
 
                 <div class="collapse navbar-collapse" id="menuNavbar">
                     <div class="navbar-nav">
-                        <a href="sobre.html" class="nav-link fs-5 active">Sobre nós </a>
-                        <a href="contato.html" class="nav-link fs-5" >Contatos </a>
-                        <a href="index.html#menu" class="nav-link fs-5" >Pratos </a>
-                        <a href="index.html#reserva" class="nav-link fs-5">Reservas</a>
+                        <a href="sobre.html" class="nav-link fs-5 ">Sobre nós </a>
+                        <a href="contato.html" class="nav-link fs-5 active" >Contatos </a>
+                        <a href="index.html#menu" class="nav-link fs-5 " >Pratos </a>
+                        <a href="index.html#reserva" class="nav-link fs-5 ">Reservas</a>
                     </div>
                 </div>
 
@@ -57,7 +57,8 @@
 
         <div class="container p-5" >
 
-            <img src="img/mail.png" alt="">
+           
+           
 
             <div class="col-12 d-grid justify-content-md-center fw-bold text-body-emphasis"><h1>Contato</h1></div>
             <div class="col-12 d-grid justify-content-md-center"><h5>Nos mande um feedback,  através da sua opnião nosso trabalho melhora!</h5></div>
@@ -79,8 +80,11 @@
                     <input type="tel" id="tel"class="form-control form-control-lg" placeholder="Digite seu telefone">
                 </div>
 
-                <label for="text" class="form-label">Mensagem</label>
-                    <input type="text" id="text"class="form-control form-control-lg" placeholder="Digite seu telefone">
+                <div class="form-outline">
+                    <label class="form-label" for="textAreaExample">Mensagem</label>
+                    <textarea class="form-control" id="textAreaExample1" cols="30" rows="10"></textarea>
+                    
+                </div>
 
                 
 
@@ -102,6 +106,48 @@
     <section id="mapa">
         <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3984.0674355398987!2d-60.02887238825486!3d-3.0766676401936626!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x926c107805471b17%3A0x2414691d61406a24!2sPeixaria%20do%20Juvenal!5e0!3m2!1spt-BR!2sbr!4v1698962544747!5m2!1spt-BR!2sbr" style="border: 2px;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
     </section>
+
+    <footer>
+        <div class="container">
+            <div class="column">
+                <h3>Localização</h3>
+                <p>Rua da Peixaria, 123</p>
+                <p>Manaus, AM</p>
+                <p>CEP: 69000-000</p>
+            </div>
+            <div class="column">
+                <h3>Horário de Funcionamento</h3>
+                <p>Segunda a Sexta: 10h às 20h</p>
+                <p>Sábado: 9h às 22h</p>
+                <p>Domingo: Fechado</p>
+            </div>
+            <div class="column">
+                <h3>Contato</h3>
+                <p>Telefone: (92) 1234-5678</p>
+                <p>Email: contato@peixariaamazon.com</p>
+                <div class="social-icons">
+                    <a href="#" title="Facebook"><i class="fab fa-facebook"></i></a>
+                    <a href="#" title="Instagram"><i class="fab fa-instagram"></i></a>
+                </div>
+            </div>
+        </div>
+    
+        <div class="container">
+           
+            <div class="column">
+                <h3>Newsletter</h3>
+                <p>Assine nossa newsletter para receber as últimas novidades.</p>
+                <div class="newsletter">
+                    <input type="email" placeholder="Seu e-mail">
+                    <button type="submit">Assinar</button>
+                </div>
+            </div>
+        </div>
+        <div class="bottom-bar">
+            <a href="#nav" class=""><h4>Início</h4></a>
+            <p>&copy; 2023 Peixaria Amazon. Todos os direitos reservados.</p>
+        </div>
+    </footer>
 
 
 
