@@ -5,8 +5,107 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Contato</title>
+
+    <link rel="stylesheet" href="css/text.css">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+
+    
 </head>
 <body>
+
+    <section class="hero">
+        <nav id="nav" class="navbar navbar-expand-lg navbar-light">
+                
+            <div class="container-fluid" >
+
+                <a href="index.html" class="navbar-brand fs-5 d-flex align-items-center ">
+                    <img class="me-2" src="img/logo.png" width="80px" height="80px">Peixaria Amazon
+                </a>
+
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#menuNavbar" >
+
+                    <span class="navbar-toggler-icon"></span>
+
+                </button>
+
+                <div class="collapse navbar-collapse" id="menuNavbar">
+                    <div class="navbar-nav">
+                        <a href="sobre.html" class="nav-link fs-5 active">Sobre nós </a>
+                        <a href="contato.html" class="nav-link fs-5" >Contatos </a>
+                        <a href="index.html#menu" class="nav-link fs-5" >Pratos </a>
+                        <a href="index.html#reserva" class="nav-link fs-5">Reservas</a>
+                    </div>
+                </div>
+
+            </div>
+
+        </nav>
+
+        <div class="px-4 py-5 my-5 text-center">
+            <h2 class="display-5 fw-bold text-body-emphasis">Peixaria Amazon</h2>
+            <div class="col-lg-6 mx-auto text-white fs-5 m-5">
+                <p>Descubra a magia dos sabores amazônicos em cada prato e embarque em uma jornada sensorial que o transportará diretamente para o coração pulsante da Amazônia.</p>
+            </div>
+            
+        </div>
+    
+    </section>
+
+    <section id="reserva" class="reserva" class="bg-light">
+
+        <div class="container p-5" >
+
+            <img src="img/mail.png" alt="">
+
+            <div class="col-12 d-grid justify-content-md-center fw-bold text-body-emphasis"><h1>Contato</h1></div>
+            <div class="col-12 d-grid justify-content-md-center"><h5>Nos mande um feedback,  através da sua opnião nosso trabalho melhora!</h5></div>
+
+            <form class="row g-3">
+
+                <div class="mb-3">
+                    <label for="nome">Nome</label>
+                    <input type="text" id="nome"class="form-control form-control-lg" placeholder="Digite seu nome" >
+                </div>
+
+                <div class="mb-3 col-md-4 ">
+                    <label for="email" class="form-label">E-mail</label>
+                    <input type="email" id="email"class="form-control form-control-lg" placeholder="Digite seu email" >
+                </div>
+
+                <div class="mb-3 col-md-4 ">
+                    <label for="tel" class="form-label">Telefone</label>
+                    <input type="tel" id="tel"class="form-control form-control-lg" placeholder="Digite seu telefone">
+                </div>
+
+                <label for="text" class="form-label">Mensagem</label>
+                    <input type="text" id="text"class="form-control form-control-lg" placeholder="Digite seu telefone">
+
+                
+
+
+                <div class="col-12 d-grid justify-content-md-center">
+                    <button type="submit" class="btn btn-outline-light btn-lg ">Enviar</button>
+                </div>
+
+            </form>
+
+
+        </div>
+
+
+
+</section>
+
+    
+    <section id="mapa">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3984.0674355398987!2d-60.02887238825486!3d-3.0766676401936626!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x926c107805471b17%3A0x2414691d61406a24!2sPeixaria%20do%20Juvenal!5e0!3m2!1spt-BR!2sbr!4v1698962544747!5m2!1spt-BR!2sbr" style="border: 2px;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </section>
+
+
+
+
     
 </body>
 </html>
